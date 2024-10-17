@@ -119,3 +119,6 @@ class Car:
                 time.sleep(0.05)
 
         self.lidar.pararlidar()
+
+car = Car()
+car.run()
